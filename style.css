@@ -27,7 +27,7 @@ body {
 }
 
 .card:hover{
-    height: 480px;
+    height: 460px;
 }
 
 .card:hover .imgBx {
