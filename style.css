@@ -97,6 +97,7 @@ body {
 .icon {
     height: 30px;
     width: 30px;
+    margin-top: 10px;
 }
 
 .card .content .details .data {
