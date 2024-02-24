@@ -100,6 +100,11 @@ body {
     margin-top: 30px;
 }
 
+.icon:hover {
+    transition: 0.7s;
+    transform: scale(1.5);
+}
+
 .card .content .details .data {
     display: flex;
     justify-content: center;
