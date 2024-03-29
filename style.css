@@ -98,14 +98,15 @@ body {
     height: 29px;
     width: 29px;
     margin-top: 30px;
+    transition: transform 0.7s; /* Adicione a transição para a transformação */
 }
 
 .icon:hover {
     transform: scale(1.5); /* Aumenta o tamanho ao passar o mouse */
 }
 
-.icon:hover {
-    transform: scale(0.7); /* Retorna ao tamanho original ao tirar o mouse */
+.icon {
+    transform: scale(1); /* Retorna ao tamanho original */
 }
 
 .card .content .details .data {
