@@ -101,8 +101,11 @@ body {
 }
 
 .icon:hover {
-    transition: 0.7s;
-    transform: scale(1.5);
+    transform: scale(1.5); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.icon:hover {
+    transform: scale(0.7); /* Retorna ao tamanho original ao tirar o mouse */
 }
 
 .card .content .details .data {
