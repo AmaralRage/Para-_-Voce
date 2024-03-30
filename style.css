@@ -98,6 +98,10 @@ h3 {
     color: whitesmoke;
 }
 
+.card.dark-mode h3 {
+    color: whitesmoke; /* Alteração: mudar a cor do h3 para whitesmoke no modo escuro */
+}
+
 .card .content .details h2 span {
     font-size: 0.75em;
     font-weight: 600;
@@ -172,7 +176,6 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg); /* Posicionar e rotacionar o segundo segmento do ícone */
 }
-
 
 .card.dark-mode .content .details .actionBtn button {
     background-color: #eeeeee; /* Alteração: mudar a cor de fundo do botão para melhor contraste no modo escuro */
