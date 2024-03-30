@@ -83,7 +83,8 @@ body {
     transform: translateY(0px);
 }
 
-.card .content .details h2 {
+.card .content .details h2,
+.card .content .details h3 {
     font-size: 1.25em;
     font-weight: 600;
     color: black; /* Alteração: manter a cor preta para o modo claro */
@@ -94,12 +95,8 @@ body {
     color: whitesmoke; /* Alteração: mudar a cor do texto para whitesmoke no modo escuro */
 }
 
-h3 {
-    color: whitesmoke;
-}
-
-.card.dark-mode h3 {
-    color: whitesmoke; /* Alteração: mudar a cor do h3 para whitesmoke no modo escuro */
+.card.dark-mode .content .details h3 {
+    color: whitesmoke; /* Alteração: mudar a cor do texto para whitesmoke no modo escuro */
 }
 
 .card .content .details h2 span {
