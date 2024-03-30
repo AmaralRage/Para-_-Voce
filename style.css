@@ -140,14 +140,37 @@ h3 {
 }
 
 .card .content .details .actionBtn button {
-    padding: 8px 20px; /* Alteração: reduzir o padding do botão */
-    font-size: 0.9em; /* Alteração: diminuir o tamanho da fonte do botão */
-    background-color: #363636; /* Alteração: manter a cor de fundo do botão */
-    color: white; /* Alteração: manter a cor do texto do botão */
-    border-radius: 5px; /* Manter o raio da borda */
-    border: none; /* Manter a borda como nula */
-    outline: none; /* Manter a borda de foco como nula */
+    width: 30px; /* Definir largura menor */
+    height: 30px; /* Definir altura menor */
+    padding: 0; /* Remover padding */
+    background-color: transparent; /* Definir cor de fundo transparente */
+    border: none; /* Remover borda */
+    outline: none; /* Remover borda de foco */
     cursor: pointer;
+}
+
+.card .content .details .actionBtn button::before {
+    content: ''; /* Adicionar pseudo-elemento para criar o ícone do botão */
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white; /* Definir cor do ícone */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg); /* Posicionar e rotacionar o ícone */
+}
+
+.card .content .details .actionBtn button::after {
+    content: ''; /* Adicionar pseudo-elemento para criar o segundo segmento do ícone do botão */
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white; /* Definir cor do segundo segmento do ícone */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg); /* Posicionar e rotacionar o segundo segmento do ícone */
 }
 
 .card.dark-mode .content .details .actionBtn button {
