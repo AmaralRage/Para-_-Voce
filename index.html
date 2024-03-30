@@ -38,15 +38,12 @@
     </div>
 
     <script src="script.js">
-
-function modoEscuro() {
-    var card = document.getElementById('card');
-    if (card.classList.contains('dark-mode')) {
-        card.classList.remove('dark-mode');
-    } else {
-        card.classList.add('dark-mode');
-    }
+        
+function toggleColor() {
+    var card = document.querySelector('.card');
+    card.classList.toggle('dark-mode');
 }
+
         
     </script>
 </body>
