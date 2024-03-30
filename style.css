@@ -86,8 +86,12 @@ body {
 .card .content .details h2 {
     font-size: 1.25em;
     font-weight: 600;
-    color: black; /* Alteração da cor do texto */
+    color: black; /* Alteração: manter a cor preta para o modo claro */
     line-height: 1.2em;
+}
+
+.card.dark-mode .content .details h2 {
+    color: whitesmoke; /* Alteração: mudar a cor do texto para whitesmoke no modo escuro */
 }
 
 h3 {
@@ -130,17 +134,23 @@ h3 {
 }
 
 .card .content .details .actionBtn {
-    gap: 20px;
+    margin-top: 20px; /* Alteração: ajustar a margem superior para melhor visualização */
+    display: flex; /* Alteração: tornar o container do botão flexível */
+    justify-content: center; /* Alteração: centralizar o botão horizontalmente */
 }
 
 .card .content .details .actionBtn button {
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    font-weight: 500;
-    background-color:#363636;
-    color: white;
+    padding: 8px 20px; /* Alteração: reduzir o padding do botão */
+    font-size: 0.9em; /* Alteração: diminuir o tamanho da fonte do botão */
+    background-color: #363636; /* Alteração: manter a cor de fundo do botão */
+    color: white; /* Alteração: manter a cor do texto do botão */
+    border-radius: 5px; /* Manter o raio da borda */
+    border: none; /* Manter a borda como nula */
+    outline: none; /* Manter a borda de foco como nula */
     cursor: pointer;
+}
+
+.card.dark-mode .content .details .actionBtn button {
+    background-color: #eeeeee; /* Alteração: mudar a cor de fundo do botão para melhor contraste no modo escuro */
+    color: black; /* Alteração: mudar a cor do texto do botão para melhor contraste no modo escuro */
 }
