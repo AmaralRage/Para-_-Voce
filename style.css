@@ -146,6 +146,16 @@ body {
     outline: none; /* Remover borda de foco */
     cursor: pointer;
     color: black; /* Definir cor do texto */
+    font-size: 20px; /* Tamanho do ícone */
+}
+
+.card.dark-mode .content .details .actionBtn button {
+    background-color: #eeeeee; /* Alteração: mudar a cor de fundo do botão para melhor contraste no modo escuro */
+    color: whitesmoke; /* Alteração: mudar a cor do texto do botão para melhor contraste no modo escuro */
+}
+
+.card.dark-mode .content .details .actionBtn button i {
+    transform: rotate(45deg);
 }
 
 .card .content .details .actionBtn button::before {
