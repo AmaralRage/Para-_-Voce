@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -20,10 +19,14 @@ body {
     position: relative;
     width: 360px;
     height: 190px;
-    background: #1C1C1C;
+    background: whitesmoke; /* Alteração da cor de fundo */
     border-radius: 20px;
     box-shadow: 0 35px 80px rgb(0,0,0,0.15);
     transition: 0.5s;
+}
+
+.card.dark-mode {
+    background: #1C1C1C; /* Cor de fundo no modo escuro */
 }
 
 .card:hover{
@@ -33,7 +36,6 @@ body {
 .card:hover .imgBx {
     width: 250px;
     height: 250px;
-
 }
 
 .imgBx {
@@ -84,7 +86,7 @@ body {
 .card .content .details h2 {
     font-size: 1.25em;
     font-weight: 600;
-    color: whitesmoke;
+    color: black; /* Alteração da cor do texto */
     line-height: 1.2em;
 }
 
@@ -102,15 +104,15 @@ h3 {
     height: 29px;
     width: 29px;
     margin-top: 30px;
-    transition: transform 0.7s; /* Adicione a transição para a transformação */
+    transition: transform 0.7s;
 }
 
 .icon:hover {
-    transform: scale(1.5); /* Aumenta o tamanho ao passar o mouse */
+    transform: scale(1.5);
 }
 
 .icon {
-    transform: scale(1); /* Retorna ao tamanho original */
+    transform: scale(1);
 }
 
 .card .content .details .data {
