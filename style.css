@@ -134,9 +134,9 @@ h3 {
 }
 
 .card .content .details .actionBtn {
-    margin-top: 20px; /* Alteração: ajustar a margem superior para melhor visualização */
-    display: flex; /* Alteração: tornar o container do botão flexível */
-    justify-content: center; /* Alteração: centralizar o botão horizontalmente */
+    position: fixed; /* Define o posicionamento fixo para o botão */
+    bottom: 20px; /* Define a distância do fundo da tela */
+    right: 20px; /* Define a distância da direita da tela */
 }
 
 .card .content .details .actionBtn button {
@@ -172,6 +172,7 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg); /* Posicionar e rotacionar o segundo segmento do ícone */
 }
+
 
 .card.dark-mode .content .details .actionBtn button {
     background-color: #eeeeee; /* Alteração: mudar a cor de fundo do botão para melhor contraste no modo escuro */
