@@ -155,24 +155,4 @@ body {
     height: 2px;
     background-color: black; /* Definir cor do ícone */
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg); /* Posicionar e rotacionar o ícone */
-}
-
-.card .content .details .actionBtn button::after {
-    content: ''; /* Adicionar pseudo-elemento para criar o segundo segmento do ícone do botão */
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: black; /* Definir cor do segundo segmento do ícone */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg); /* Posicionar e rotacionar o segundo segmento do ícone */
-}
-
-.card.dark-mode .content .details .actionBtn button {
-    background-color: #eeeeee; /* Alteração: mudar a cor de fundo do botão para melhor contraste no modo escuro */
-    color: whitesmoke; /* Alteração: mudar a cor do texto do botão para melhor contraste no modo escuro */
-}
+   
