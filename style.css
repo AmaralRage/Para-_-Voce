@@ -23,6 +23,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 35px 80px rgb(0,0,0,0.15);
     transition: 0.5s;
+    transition: background-color 0.5s; /* Adiciona transição para a mudança de cor de fundo */
 }
 
 .card.dark-mode {
@@ -90,12 +91,14 @@ body {
     line-height: 1.2em;
 }
 
-.card.dark-mode .content .details h2 {
+.card.dark-mode .content .details h2,
+.card.dark-mode .content .details h3 {
     color: whitesmoke; /* Alteração: mudar a cor do texto para whitesmoke no modo escuro */
 }
 
-h3 {
-    color: black;
+.card .content .details h2,
+.card .content .details h3 {
+    color: black; /* Cor do texto no modo claro */
 }
 
 .card .content .details h2 span {
@@ -159,6 +162,16 @@ h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg); /* Posicionar e rotacionar o ícone */
+}
+
+.card .content .details .actionBtn button::before,
+.card .content .details .actionBtn button::after {
+    background-color: black; /* Cor do ícone no modo claro */
+}
+
+.card.dark-mode .content .details .actionBtn button::before,
+.card.dark-mode .content .details .actionBtn button::after {
+    background-color: whitesmoke; /* Cor do ícone no modo escuro */
 }
 
 .card .content .details .actionBtn button::after {
