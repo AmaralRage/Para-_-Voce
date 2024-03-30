@@ -1,8 +1,4 @@
-function modoEscuro() {
+function toggleColor() {
     var card = document.getElementById('card');
-    if (card.classList.contains('dark-mode')) {
-        card.classList.remove('dark-mode');
-    } else {
-        card.classList.add('dark-mode');
-    }
+    card.classList.toggle('dark-mode');
 }
