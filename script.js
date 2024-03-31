@@ -5,7 +5,7 @@
 
 function toggleColor() {
     var card = document.getElementById('card');
-    var icon = document.getElementById("icon");
+    var icon = document.querySelector(".actionBtn i");
     card.classList.toggle('dark-mode');
     if (card.classList.contains('dark-mode')) {
         // Se o modo escuro estiver ativado, mude o ícone para uma lua
