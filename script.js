@@ -3,7 +3,7 @@
     // card.classList.toggle('dark-mode');
  // }
 
-function toggleColor() {
+function modoEscuro() {
     var card = document.getElementById('card');
     var icon = document.querySelector(".actionBtn i");
     card.classList.toggle('dark-mode');
