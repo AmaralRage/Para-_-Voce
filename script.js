@@ -1,4 +1,4 @@
-// function toggleColor() {
+// function modoEscuro() {
   //  var card = document.getElementById('card');
     // card.classList.toggle('dark-mode');
  // }
