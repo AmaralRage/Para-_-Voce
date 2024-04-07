@@ -117,6 +117,10 @@ body {
     transform: scale(1);
 }
 
+.hidden {
+    display: none;
+}
+
 .card .content .details .data {
     display: flex;
     justify-content: center;
