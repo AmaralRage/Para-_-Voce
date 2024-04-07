@@ -121,6 +121,10 @@ body {
     display: none;
 }
 
+.white-icon {
+    filter: invert(100%);
+}
+
 .card .content .details .data {
     display: flex;
     justify-content: center;
