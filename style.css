@@ -102,34 +102,19 @@ body {
     opacity: 0.8;
 }
 
-.icon {
+.icon, .sol, .lua {
     height: 29px;
     width: 29px;
     margin-top: 30px;
     transition: transform 0.7s;
 }
 
-.sol .lua {
-    height: 26px;
-    width: 26px;
-    margin-top: 30px;
-    transition: transform 0.7s;
-}
-
-.icon:hover {
+.icon:hover, .sol:hover, .lua:hover {
     transform: scale(1.5);
 }
 
-.sol .lua:hover {
+.sol, .lua {
     transform: scale(1);
-}
-
-.icon {
-    transform: scale(1);
-}
-
-.sol .lula {
-    transform: scale(0.5);
 }
 
 .card .content .details .data {
