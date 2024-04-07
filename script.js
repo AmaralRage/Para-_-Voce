@@ -3,17 +3,12 @@
     // card.classList.toggle('dark-mode');
  // }
 
-function modoEscuro() {
-    var card = document.getElementById('card');
-    var icon = document.querySelector(".actionBtn i");
+function toggleDarkMode() {
+    const card = document.querySelector('.card');
+    const luaIcon = document.querySelector('.lua');
+    const solIcon = document.querySelector('.sol');
+
     card.classList.toggle('dark-mode');
-    if (card.classList.contains('dark-mode')) {
-        // Se o modo escuro estiver ativado, mude o ícone para uma lua
-        icon.classList.remove("fa-sun");
-        icon.classList.add("fa-moon");
-    } else {
-        // Caso contrário, mantenha o ícone do sol
-        icon.classList.remove("fa-moon");
-        icon.classList.add("fa-sun");
-    }
+    luaIcon.classList.toggle('hidden');
+    solIcon.classList.toggle('hidden');
 }
