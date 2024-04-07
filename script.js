@@ -11,4 +11,5 @@ function toggleDarkMode() {
     card.classList.toggle('dark-mode');
     luaIcon.classList.toggle('hidden');
     solIcon.classList.toggle('hidden');
+    solIcon.classList.toggle('white-icon');
 }
