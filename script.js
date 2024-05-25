@@ -1,8 +1,3 @@
-// function modoEscuro() {
-  //  var card = document.getElementById('card');
-    // card.classList.toggle('dark-mode');
- // }
-
 function toggleDarkMode() {
     const card = document.querySelector('.card');
     const luaIcon = document.querySelector('.lua');
