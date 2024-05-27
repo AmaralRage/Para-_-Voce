@@ -26,7 +26,7 @@ body {
 }
 
 .card.dark-mode {
-    background: #1C1C1C; /* Cor de fundo no modo escuro */
+    background: #1C1C1C;
 }
 
 .card:hover{
@@ -87,7 +87,7 @@ body {
 .card .content .details h3 {
     font-size: 1.25em;
     font-weight: 600;
-    color: black; /* Alteração: manter a cor preta para o modo claro */
+    color: black;
     line-height: 1.2em;
 }
 
@@ -140,9 +140,9 @@ body {
 }
 
 .card .content .details .actionBtn {
-    position: fixed; /* Define o posicionamento fixo para o botão */
-    bottom: 20px; /* Define a distância do fundo da tela */
-    right: 20px; /* Define a distância da direita da tela */
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
 }
 
 .card .content .details .actionBtn button {
