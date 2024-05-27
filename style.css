@@ -167,7 +167,7 @@ body {
 }
 
 .card .content .details .actionBtn button::before {
-    content: ''; /* Adicionar pseudo-elemento para criar o ícone do botão */
+    content: '';
     display: block;
     width: 20px;
     height: 2px;
