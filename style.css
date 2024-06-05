@@ -19,7 +19,7 @@ body {
     position: relative;
     width: 360px;
     height: 190px;
-    background: whitesmoke; /* Alteração da cor de fundo */
+    background: whitesmoke;
     border-radius: 20px;
     box-shadow: 0 35px 80px rgb(0,0,0,0.15);
     transition: 0.5s;
