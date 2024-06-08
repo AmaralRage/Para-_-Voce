@@ -1,4 +1,4 @@
-function toggleDarkMode() {
+function modoEscuro() {
     const card = document.querySelector('.card');
     const luaIcon = document.querySelector('.lua');
     const solIcon = document.querySelector('.sol');
