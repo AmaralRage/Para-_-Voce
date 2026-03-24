@@ -200,3 +200,21 @@ body {
 #toggleDark:hover {
     transform: scale(1.2) rotate(20deg);
 }
+
+    #toggleDark {
+    position: absolute;
+    right: 30px;
+    bottom: 95px; /* ajusta alinhamento com o texto */
+    
+    width: 22px;
+    height: 22px;
+
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+#toggleDark:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
