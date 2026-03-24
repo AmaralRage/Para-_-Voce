@@ -186,3 +186,17 @@ body {
 #toggleDark {
     cursor: pointer;
 }
+
+#toggleDark {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+#toggleDark:hover {
+    transform: scale(1.2) rotate(20deg);
+}
