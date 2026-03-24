@@ -1,10 +1,9 @@
-function modoEscuro() {
-    const card = document.querySelector('.card');
-    const luaIcon = document.querySelector('.lua');
-    const solIcon = document.querySelector('.sol');
+const card = document.getElementById("card");
+const toggle = document.getElementById("toggleDark");
 
-    card.classList.toggle('dark-mode');
-    luaIcon.classList.toggle('hidden');
-    solIcon.classList.toggle('hidden');
-    solIcon.classList.toggle('white-icon');
-}
+toggle.addEventListener("click", () => {
+    card.classList.toggle("dark-mode");
+
+    // opcional: inverter cor do ícone
+    toggle.classList.toggle("white-icon");
+});
