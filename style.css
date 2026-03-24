@@ -182,3 +182,7 @@ body {
 #toggleDark:hover {
     transform: rotate(20deg) scale(1.2);
 }
+
+#toggleDark {
+    cursor: pointer;
+}
