@@ -173,4 +173,12 @@ body {
     height: 2px;
     background-color: black; /* Definir cor do ícone */
     position: absolute;
-   
+
+    #toggleDark {
+    cursor: pointer;
+    transition: transform 0.5s, filter 0.5s;
+}
+
+#toggleDark:hover {
+    transform: rotate(20deg) scale(1.2);
+}
